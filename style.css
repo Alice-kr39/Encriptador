@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: #E5E5E5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #F3F5FC;
+}
+
+
+
+.main {
+    /*width: 80vw; */
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    
+}
+  
+
+
+.logo{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+
+
+}
+
+
+
+
+
+.principal{
+
+/* Ingrese el texto aqui */
+
+
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+
+
+
+}
+
+
+.text-area{
+    padding: 100px;
+    margin-top: 50px;
+    width: 40%;   /*reduce el cuadro del area de texto*/
+    height: 400px;
+    text-align: center;
+    font-family: inter;
+    font-size: 14px;
+    display: block;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    color: #0A3871;
+    background: #cbd8de;
+
+}
+
+
+
+/* para el texto de minusculas */
+
+
+.informacion{
+    color: #b51212;
+    font-size: 18px;
+}
+
+
+.Muñeco{
+    width: 70%;
+    height: 100%;
+    margin-top: 1%;
+    margin-left: 2%
+}
+
+.contenedor-parrafo{
+
+/* Ningún mensaje fue encontrado */
+
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;   
+
+    text-align: center;
+
+    color: #343A40;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+
+.contenedor-resulfinal{
+    /* Ingresa el texto que desees encriptar o desencriptar. */
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    
+
+    text-align: center;
+
+    color: #495057;
+
+
+    
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+
+
+}
+
+
+.contenedor-muñeco{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+
+
+
+
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+
+}
+
+.boton-encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.boton-desencriptar{
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+
+
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+.contenedor-copiar{
+    top: 885px;
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 24px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    
+    color: #0A3871;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.mensaje-encriptado{
+    /* Ningún mensaje fue encontrado */
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    margin-top: 3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+
+    color: #343A40;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+
+
+
+
+
+.pie-pagina{
+    
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
