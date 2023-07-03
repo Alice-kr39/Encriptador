@@ -1,0 +1,242 @@
+    /* Estilos generales */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #F3F5FC;
+        }
+        
+        #contenedor {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            
+        }
+        
+        /* Estilos para el encabezado */
+        header {
+            text-align: center;
+        }
+        
+        #logo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            max-width: 200px;
+            padding: 0px;
+            gap: 40px;
+            position: absolute;
+            width: 100px;
+            height: 48px;
+            left: 40px;
+            top: 40px;
+    
+        }
+        
+        /* Estilos para la sección principal */
+        .general {
+            margin-top: 20px;
+            position: absolute;
+            width: 577px;
+            height: 48px;
+            left: 240px;
+            top: 168px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 150%;
+    
+    
+        }
+        
+        .text-input {
+            width: 100%;
+            padding: 100px;
+        
+            position: 0;
+        
+        
+            width: 100%;   /*reduce el cuadro del area de texto*/
+            height: 60%;
+            left: 12%;
+            top: 15%;   
+            font-family: inter;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 150%;
+            border: none;
+            outline: none;
+        
+            font-size: 32px;
+            color: #0A3871;
+            background: #cbd8de;
+        }
+        
+        .aviso {
+            background-color: #f2f2f2;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .botones {
+            display: flex;
+            flex-direction:row;
+            align-items: flex-start;
+            justify-content: center;
+            padding:0px;
+            
+            position:absolute;
+        }
+        
+        .btn1,
+        .btn2 {
+            
+            align-items: flex-start;
+            margin: 0 5px;
+            width: 328px;
+            height: 67px;
+            padding: 24px;
+            
+            background-color: #007bff;
+            border-radius: 24px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+    
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn1:hover,
+        .btn2:hover {
+            background-color: #0056b3;
+        }
+        
+        /* Estilos para la sección de resultado */
+        .mensaje-box {
+            text-align: center;
+            margin-top: 20px;
+            position:0;
+    
+        }
+        
+        #divimagen {
+            margin-top: 20px;
+        
+            width: 70%;
+            height: 80%;
+            margin-top: 1%;
+            margin-left: 2%;
+            position: absolute;
+            width: 320px;
+            height: 844px;
+            left: 1000px;
+            top: 40px;
+            background: #fff;
+            box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+            border-radius: 32px;
+            
+        }
+        
+        .img {
+            max-width: 200px;
+        }
+        
+        .texto1,
+        .texto2 {
+            margin: 10px 0;
+            width: 336px;
+            height: 58px;
+        
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;   
+    
+        }
+        
+        #btncopiar {
+            
+            display: flex;
+            flex-direction:row;
+            align-items: flex-start;
+            justify-content: center;
+            padding:0px;
+            
+            position:relative;
+            width: 200px;
+            height: 50px;
+            left: 1000px;
+            top: 40px;
+            background: #fff;
+            box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+            border-radius: 32px;	
+        }
+        
+        .text-input-salida {
+            
+            width: 100%;
+            padding: 10px 20px;
+            position: 0;
+            width: 300px;
+            height: 250px;
+            left: 1000px;
+            top: 40px;
+            background: #fff;
+            box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+            border-radius: 32px;
+        }
+        
+        .btn3 {
+            margin-left: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            position:relative;
+            align-items: flex-start;
+            margin: 0 5px;
+            width: 328px;
+            height: 67px;
+            padding: 24px;
+            background-color: #007bff;
+            border-radius: 24px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+    
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }  
+
+            /* Estilos para el resultado encriptado */
+        .mensaje-box.visible {
+            display: flex;
+            position:relative;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    
+    
+        }
+        
+        .texto1,
+        .texto2 {
+            margin-bottom: 10px;
+        }
+        
+        

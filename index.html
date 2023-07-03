@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <img src="imagenes/logo.png" alt="logo de alura" id="logo">"
+        </header>
+
+        <main>
+
+        <div class="general">
+            
+
+                <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+            
+                <div class="aviso">
+                    <p>Solo letras minúsculas y sin acentos </p> 
+        
+                
+                </div>
+
+                <div class="botones">
+                    <input class="btn1" type="button" value="encriptar" id="btnEncriptar">
+                    <input class="btn2" type="button" value="desencriptar" id="btnDesencriptar">
+                    <input class="btn3" type="button" value="borrar" id="btn-limpiar">
+                </div>
+
+            <!-- esta seccion es del texto resultado encriptado -->
+
+            <div class="mensaje-box" id="cajafnl">
+                
+
+
+                <div id="divimagen">
+                <picture>
+                    <source srcset="imagenes/Muñeco.png" media="screen and (max-width:400px)">
+                    <img src="imagenes/Muñeco.png" id="imagen" class="img">
+                </picture>
+                <p class="texto1"><strong>Ningún mensaje fue encontrado</strong></p>
+                <p class="texto2"><strong>Ingresa el texto que deseas encriptar o desencriptar</strong></p>
+                </div>
+                <div id="btncopiar">
+                    <input class="text-input-salida" type="text" id="msg">
+                    <input class="btn3" type="button" value="copiar" id="btn-copy">   
+                </div>
+
+    
+        </main>
+    <footer>
+        <p>Alice Carballo </p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
